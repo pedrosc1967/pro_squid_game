@@ -1,5 +1,7 @@
 class Constants {
   Constants._();
+  static const String sentryDsn =
+      'https://19f7772db96d496984da92356d223d56@o496488.ingest.sentry.io/6050563';
   static const double padding = 20;
   static const double avatarRadius = 45;
   // static const String bannerAndroid = '1330190004069862_1330190360736493';

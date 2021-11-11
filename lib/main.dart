@@ -32,8 +32,7 @@ Future<void> main() async {
   await [
     SentryFlutter.init(
       (options) {
-        options.dsn =
-            'https://c04993e9d98042c19e1c7bae6479c16f@o496488.ingest.sentry.io/5998091';
+        options.dsn = Constants.sentryDsn;
       },
     ),
     //Firebase.initializeApp(),
@@ -50,7 +49,10 @@ Future<void> main() async {
         Locale('es', 'ES'),
         Locale('it', 'IT'),
         Locale('fr', 'FR'),
-        Locale('de', 'DE')
+        Locale('de', 'DE'),
+        Locale('jp', 'JP'),
+        Locale('ko', 'KO'),
+        Locale('ru', 'RU')
       ],
       path: 'assets/translations', // <-- change patch to your
       fallbackLocale: Locale('en', 'US'),
@@ -211,7 +213,7 @@ class HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
       case 'es_ES':
         {
-          dataFilename = 'assets/data-sp.json';
+          dataFilename = 'assets/data-es.json';
         }
         break;
 
@@ -230,6 +232,24 @@ class HomePageState extends State<HomePage> with WidgetsBindingObserver {
       case 'fr_FR':
         {
           dataFilename = 'assets/data-fr.json';
+        }
+        break;
+
+      case 'ko_KO':
+        {
+          dataFilename = 'assets/data-ko.json';
+        }
+        break;
+
+      case 'jp_JP':
+        {
+          dataFilename = 'assets/data-jp.json';
+        }
+        break;
+
+      case 'ru_RU':
+        {
+          dataFilename = 'assets/data-run.json';
         }
         break;
 

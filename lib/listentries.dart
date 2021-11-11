@@ -47,7 +47,7 @@ class ListEntriesState extends State<ListEntries> {
                     height: responsive.hp(12),
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.white60,
+                        primary: Colors.white70,
                         onPrimary: Colors.white,
                         shadowColor: Colors.greenAccent,
                         elevation: 3,

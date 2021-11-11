@@ -64,7 +64,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/data-us.json
-    - assets/data-sp.json
+    - assets/data-es.json
     - assets/data-fr.json
     - assets/data-it.json
     - assets/data-de.json
@@ -75,6 +75,20 @@ flutter:
     - images/anciano.png
     - images/redlightgreenlight.png
     - images/hell.jpeg
+    - images/maninumbrella.png
+    - images/sticktotheteam.png
+    - images/afairworld.png
+    - images/ggambu.png
+    - images/vips.png
+    - images/frontman.jpeg
+    - images/oneluckyday.png
+    - images/kihoon.png
+    - images/leejungjae.png
+    - images/chosangwoo.png
+    - images/parkhaesoo.png
+    - images/kangsaebyeok.png
+    - images/junghoyeon.png
+    - images/kimmiok.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
